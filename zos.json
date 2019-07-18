@@ -1,0 +1,9 @@
+{
+  "zosversion": "2.2",
+  "name": "pooltogether-double-winner-calculation",
+  "version": "0.1.0",
+  "contracts": {
+    "PoolState": "PoolState",
+    "Migrations": "Migrations"
+  }
+}
