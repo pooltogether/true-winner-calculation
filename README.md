@@ -4,7 +4,7 @@ After PoolTogether was launched, a flaw was discovered in the smart contracts.  
 
 Because the "true" winner was lost over time, this contract re-creates the selection state in order to calculate the true winner of the pool.
 
-The broken Pool in question is located at [0x4Fc604536134Dc64718800361eCbca0df6cBfE08](https://etherscan.io/address/0x4Fc604536134Dc64718800361eCbca0df6cBfE08).  You'll notice under the read contract section it lists the winner as being `0xbF63f97613f796E1dE3446e64b529C79E5cc40b2`.  This is false!  The true winner is calculated below.
+The broken Pool in question is located at [0x4Fc604536134Dc64718800361eCbca0df6cBfE08](https://etherscan.io/address/0x4Fc604536134Dc64718800361eCbca0df6cBfE08).  You'll notice under the read contract section it lists the winner as being `0xbF63f97613f796E1dE3446e64b529C79E5cc40b2`.  This winner was calculated incorrectly, as far as we intended.  The true winner we intended is `0x2A1049062c6Cfd69bd38fbaf3b0559DF1DBbc92c`.  You can calculate it yourself using the instructions below.
 
 # Setup
 
