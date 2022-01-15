@@ -32,7 +32,7 @@
     "fixidity": "DeltaCamp/Fixidity#edf533f77df43b16a7b92f17af7a8930db01f293",
     "kleros": "DeltaCamp/kleros#605bee4497874030b74ad7257c1d7b5f53f42f4a",
     "pooltogether-contracts": "pooltogether/pooltogether-contracts#39aa91f8a197e2e30150b8d7fb12b4926cabdbf2",
-    "shelljs": "0.8.3",
+    "shelljs": "0.8.5",
     "truffle": "5.0.1",
     "truffle-deploy-registry": "0.5.0",
     "truffle-hdwallet-provider": "1.0.0-web3one.5",
